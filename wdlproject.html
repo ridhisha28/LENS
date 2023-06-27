@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+    <title>Background Image</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+	<style>
+		body {
+			background-image: url("lens.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenskart</title>
+    
+</head>
+<body>
+	<header>
+		
+        <div class="img"></div>
+        <img src="lens.png">
+         		<nav>
+<h2>Login</h2>
+    <form action="login.php" method="POST">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Login</button>
+      </div>
+			</form>
+        </nav>
+    </div>
+    <ul>
+        <div class="card" style="width: 18rem;">
+            <img src="SUNGLASS.jpg" class="card-img-top" alt="SUNGLASS.jpg">
+            <div class="card-body">
+              <h5 class="sunglasses">SUNGLASSES</h5>
+              <p class="card-text">BEST SELLERS SUNGLASSES
+                All time Best Sellers
+                A great collection of 500+ Sunglasses Buy 1 Get 1 Free with Gold Membership.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="contact.jpg" class="card-img-top" alt="contact.jpg">
+            <div class="card-body">
+              <h5 class="sunglasses">CONTACT LENS</h5>
+              <p class="card-text">Buy Contact lenses Online from Lenskart starting at Rs 99 only
+                Buy Contact Lens at the best prices including Aqualens. One stop for all leading brands. Free Contact Lens Trial. Try Color Contact Lens. Free Contact Lens Solution.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="eyeglasses.webp" class="card-img-top" alt="eyeglasses.webp">
+            <div class="card-body">
+              <h5 class="sunglasses">EYEGLASSES</h5>
+              <p class="card-text">BEST SELLERS STARTING AT RS.1000.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </ul>
+</nav>
+</header>
+
+<main>
+<section id="hero">
+    <h2>Find Your Perfect Pair</h2>
+    <p>With our wide selection of eyeglasses and sunglasses, you're sure to find the perfect pair for you.</p>
+    <a href="#eyeglasses" class="btn">See Eyeglasses</a>
+    <a href="#sunglasses" class="btn">See Sunglasses</a>
+</section>
+
+<section id="eyeglasses">
+    <h2>Eyeglasses</h2>
+    <ul>
+        <li>Round</li>
+        <li>Rectangle</li>
+        <li>Square</li>
+        <li>Aviator</li>
+    </ul>
+    <a href="#contact" class="btn">Contact Us</a>
+</section>
+
+<section id="sunglasses">
+    <h2>Sunglasses</h2>
+    <ul>
+        <li>Wayfarer</li>
+        <li>Aviator</li>
+        <li>Round</li>
+        <li>Rectangle</li>
+    </ul>
+    <a href="#contact" class="btn">Contact Us</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="name" required><br>
+         </section>
+</body>
+</html>
